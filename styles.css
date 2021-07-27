@@ -7,24 +7,10 @@
   }
 
 :root{
-    /* --main-bg-color:#eeebd3;
-    --header-color:#255957;
-    --menu-color:#437c90; */
-
-    /* --main-bg-color:#f3f8f2;
-    --header-color:#002642;
-    --menu-color:#2f97c1; */
 
     --main-bg-color:#f3f8f2;
     --header-color:#255957;
     --menu-color:#2f97c1;
-
-    /* --main-bg-color: white;
-    --header-color:#004E64;
-    --menu-color:#FC9F5B; */
-
-    
-
 }
 body
 {
