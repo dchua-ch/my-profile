@@ -54,9 +54,10 @@ li.button{
     margin: 1rem;
 }
 
-img#linkedin-logo{
+.logo{
     width:150px;
 }
+
 
 
 /* @media screen and (min-width:700px){
