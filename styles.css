@@ -3,19 +3,40 @@
     This resets margin and padding to 0.  */
     margin: 0;
     padding: 0;
-    /*  */
     box-sizing: border-box;
   }
+
+:root{
+    /* --main-bg-color:#eeebd3;
+    --header-color:#255957;
+    --menu-color:#437c90; */
+
+    /* --main-bg-color:#f3f8f2;
+    --header-color:#002642;
+    --menu-color:#2f97c1; */
+
+    --main-bg-color:#f3f8f2;
+    --header-color:#255957;
+    --menu-color:#2f97c1;
+
+    /* --main-bg-color: white;
+    --header-color:#004E64;
+    --menu-color:#FC9F5B; */
+
+    
+
+}
 body
 {
-    background-color: #eeebd3;
+    background-color: var(--main-bg-color);
     min-width: 500px;
     line-height: 2;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 .header{
     text-align: center;
-    background-color: #255957;
-    color:#eeebd3;
+    background-color: var(--header-color);
+    color:var(--main-bg-color);
 }
 
 
@@ -24,12 +45,12 @@ body
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #437c90;
-    color:#eeebd3;
+    background-color: var(--menu-color);
+    color:var(--main-bg-color);
 }   
 
 img#mugshot{
-    width:200px; 
+    width:250px; 
     display:block; 
     margin: 1rem auto; 
     border-radius: 100%; 
@@ -60,6 +81,10 @@ li.button{
 }
 .logo-container{
     margin:1rem;
+}
+
+.header > h1{
+    font-weight: bolder;
 }
 
 
