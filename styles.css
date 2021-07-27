@@ -41,7 +41,8 @@ li.button{
 }
 
 .bio,.work-experience,.education,.contact{
-    padding:2rem;
+    padding:2rem 25%;
+    
 
   
 }
