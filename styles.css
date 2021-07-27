@@ -9,11 +9,12 @@
 body
 {
     background-color: #eeebd3;
+    min-width: 500px;
 }
 .header{
     text-align: center;
     background-color: #255957;
-    color:white;
+    color:#eeebd3;
 }
 
 
@@ -23,10 +24,10 @@ body
     flex-direction: row;
     justify-content: space-around;
     background-color: #437c90;
-    color:white;
+    color:#eeebd3;
 }   
 
-img{
+img#mugshot{
     width:200px; 
     display:block; 
     margin: 1rem auto; 
@@ -41,10 +42,20 @@ li.button{
 }
 
 .bio,.work-experience,.education,.contact{
-    padding:2rem 25%;
-    
+    padding:2rem 0;
+    margin: 0 auto;
+    width: 80%;
+}
 
-  
+.links-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+img#linkedin-logo{
+    width:150px;
 }
 
 
