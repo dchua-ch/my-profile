@@ -29,7 +29,7 @@
 body
 {
     background-color: var(--main-bg-color);
-    min-width: 500px;
+    min-width: 320px;
     line-height: 2;
     font-family: 'Baloo Chettan 2', cursive;
 }
