@@ -10,6 +10,7 @@ body
 {
     background-color: #eeebd3;
     min-width: 500px;
+    line-height: 2;
 }
 .header{
     text-align: center;
@@ -57,10 +58,18 @@ li.button{
 .logo{
     width:150px;
 }
+.logo-container{
+    margin:1rem;
+}
 
 
 
-/* @media screen and (min-width:700px){
+ @media screen and (max-width:600px){
+     .links-container{
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+     }
     
     
-} */
+} 
