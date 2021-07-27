@@ -1,13 +1,14 @@
+//Query the DOM
 const bioButton = document.querySelector("#bio-button");
 const workExperienceButton = document.querySelector("#work-exp-button");
 const educationButton = document.querySelector("#education-button");
 const contactButton = document.querySelector("#contact-button");
-
 const bio = document.querySelector(".bio");
 const workExperience = document.querySelector(".work-experience");
 const education = document.querySelector(".education");
 const contact = document.querySelector(".contact");
 
+//Click events
 let selector = 0;
 navigateContent(selector);
 
