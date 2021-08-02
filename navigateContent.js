@@ -34,6 +34,11 @@ function navigateContent(selector){
             workExperience.setAttribute('style','display:none;');
             education.setAttribute('style','display:none;');
             contact.setAttribute('style','display:none;');
+
+            bioButton.setAttribute('style','font-weight:bold;');
+            workExperienceButton.setAttribute('style','font-weight:lighter');
+            educationButton.setAttribute('style','font-weight:lighter');
+            contactButton.setAttribute('style','font-weight:lighter');
             break;
 
         case 1:
@@ -41,6 +46,11 @@ function navigateContent(selector){
             workExperience.setAttribute('style','display:block;');
             education.setAttribute('style','display:none;');
             contact.setAttribute('style','display:none;');
+
+            bioButton.setAttribute('style','font-weight:lighter;');
+            workExperienceButton.setAttribute('style','font-weight:bold');
+            educationButton.setAttribute('style','font-weight:lighter');
+            contactButton.setAttribute('style','font-weight:lighter');
             break;
 
         case 2:
@@ -48,6 +58,11 @@ function navigateContent(selector){
             workExperience.setAttribute('style','display:none;');
             education.setAttribute('style','display:block;');
             contact.setAttribute('style','display:none;');
+
+            bioButton.setAttribute('style','font-weight:lighter;');
+            workExperienceButton.setAttribute('style','font-weight:lighter');
+            educationButton.setAttribute('style','font-weight:bold');
+            contactButton.setAttribute('style','font-weight:lighter');
             break;
 
         case 3:
@@ -55,6 +70,11 @@ function navigateContent(selector){
             workExperience.setAttribute('style','display:none;');
             education.setAttribute('style','display:none;');
             contact.setAttribute('style','display:block;');
+
+            bioButton.setAttribute('style','font-weight:lighter;');
+            workExperienceButton.setAttribute('style','font-weight:lighter');
+            educationButton.setAttribute('style','font-weight:lighter');
+            contactButton.setAttribute('style','font-weight:bold');
             break;
 
     }
